@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <h2>Fake Store</h2>
+            <div class="cart">
+                <img src="assets/cart.gif" alt="Shopping Cart">
+                <span id="cartcount">0</span>
+            </div>
+       </nav>
+    </header>
+    <main>
+        <section class="buttons">
+            <button onclick="filterProducts('all')">All</button>
+            <button onclick="filterProducts(`men's clothing`)">Men's Clothing</button>
+            <button onclick="filterProducts(`women's clothing`)">Women's Clothing</button>
+            <button onclick="filterProducts('electronics')">Electronics</button>
+            <button onclick="filterProducts('jewelery')">Jewelery</button>
+        </section>
+        <section id="products" class="products"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
