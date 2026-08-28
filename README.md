@@ -18,7 +18,7 @@ Weekly assessment submissions for my Software Development internship at **Optron
 
 | Week | Topic | Assessment | Status |
 |------|-------|------------|--------|
-| W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./phase-2-backend-database/week-04-nodejs-express-apis) | ✅ Completed |
+| W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./week-4) | ✅ Completed |
 | W5 | Databases — PostgreSQL & ORMs | — | ⏳ Upcoming |
 | W6 | REST APIs & Authentication | — | ⏳ Upcoming |
 
@@ -73,13 +73,12 @@ optronix-internship/
 │       ├── context/AuthContext.jsx
 │       ├── pages/ (Tasks, TaskDetail, Team, Settings, Login)
 │       └── store/useUIStore.js
-└── phase-2-backend-database/
-    └── week-04-nodejs-express-apis/
-        ├── README.md
-        ├── package.json
-        ├── server.js
-        ├── controllers/ · db/ · middleware/ · routes/ · services/ · utils/
-        └── postman/Task-Manager-Api.postman_collection.json
+└── week-4/
+    ├── README.md
+    ├── package.json
+    ├── server.js
+    ├── controllers/ · db/ · middleware/ · routes/ · services/ · utils/
+    └── postman/Task-Manager-Api.postman_collection.json
 ```
 
 Each week folder contains its own `README.md` with the task details, features implemented and run instructions.
