@@ -18,7 +18,7 @@ Weekly assessment submissions for my Software Development internship at **Optron
 
 | Week | Topic | Assessment | Status |
 |------|-------|------------|--------|
-| W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./week-4) | ✅ Completed |
+| W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./week-04-nodejs-express-apis) | ✅ Completed |
 | W5 | Databases — PostgreSQL & ORMs | — | ⏳ Upcoming |
 | W6 | REST APIs & Authentication | — | ⏳ Upcoming |
 
@@ -73,7 +73,7 @@ optronix-internship/
 │       ├── context/AuthContext.jsx
 │       ├── pages/ (Tasks, TaskDetail, Team, Settings, Login)
 │       └── store/useUIStore.js
-└── week-4/
+└── week-04-nodejs-express-apis/
     ├── README.md
     ├── package.json
     ├── server.js
