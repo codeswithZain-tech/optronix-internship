@@ -19,6 +19,7 @@ Weekly assessment submissions for my Software Development internship at **Optron
 | Week | Topic | Assessment | Status |
 |------|-------|------------|--------|
 | W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./week-04-nodejs-express-apis) | ✅ Completed |
+| W5 | Databases — PostgreSQL & ORMs | [Library API — PostgreSQL + Prisma ORM](./week-05-postgresql-prisma) | ✅ Completed |
 | W5 | Databases — PostgreSQL & ORMs | — | ⏳ Upcoming |
 | W6 | REST APIs & Authentication | — | ⏳ Upcoming |
 
@@ -49,6 +50,7 @@ Weekly assessment submissions for my Software Development internship at **Optron
 - **State management** — Zustand (client state), TanStack React Query (server state, optimistic updates)
 - **Routing** — React Router v6 (protected nested routes, URL search params)
 - **Node.js & Express** — layered REST APIs (`db → services → controllers → routes`), express-validator, rate limiting, CORS, helmet
+- **PostgreSQL + Prisma ORM** — schemas, migrations, transactions, relations, TypeScript
 
 ## Repository Structure
 
@@ -79,6 +81,10 @@ optronix-internship/
     ├── server.js
     ├── controllers/ · db/ · middleware/ · routes/ · services/ · utils/
     └── postman/Task-Manager-Api.postman_collection.json
+
+Coming next:
+├── week-05-postgresql-prisma/     ✅ (Node + Express + TypeScript + Prisma ORM)
+└── week-06-rest-apis-authentication/   ⏳
 ```
 
 Each week folder contains its own `README.md` with the task details, features implemented and run instructions.
