@@ -20,7 +20,6 @@ Weekly assessment submissions for my Software Development internship at **Optron
 |------|-------|------------|--------|
 | W4 | Node.js & Express APIs | [Task Manager API — layered Express API](./week-04-nodejs-express-apis) | ✅ Completed |
 | W5 | Databases — PostgreSQL & ORMs | [Library API — PostgreSQL + Prisma ORM](./week-05-postgresql-prisma) | ✅ Completed |
-| W5 | Databases — PostgreSQL & ORMs | — | ⏳ Upcoming |
 | W6 | REST APIs & Authentication | — | ⏳ Upcoming |
 
 ## Phase 3 — Full-Stack Apps
@@ -81,9 +80,18 @@ optronix-internship/
     ├── server.js
     ├── controllers/ · db/ · middleware/ · routes/ · services/ · utils/
     └── postman/Task-Manager-Api.postman_collection.json
-
-Coming next:
-├── week-05-postgresql-prisma/     ✅ (Node + Express + TypeScript + Prisma ORM)
+├── week-05-postgresql-prisma/
+│   ├── README.md
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── .env.example
+│   ├── prisma/
+│   │   ├── schema.prisma
+│   │   └── seed.ts
+│   └── src/
+│       ├── server.ts
+│       ├── db.ts
+│       └── routes/ (books, loans, members)
 └── week-06-rest-apis-authentication/   ⏳
 ```
 
